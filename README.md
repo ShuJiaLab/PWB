@@ -7,4 +7,6 @@ All the parameters we used are already preset in the code. If you want to use th
 
 We acknowledge the work "Rapid image deconvolution and multiview fusion for optical microscopy" on Nature Biotechnology and "Patch deconvolution for Fourier light-field microscopy" on Biophysical Journal, as we adotped some of the methods in their paper. 
 
-We have only provided the reconstruction code. If you want the hPSF and FLFM image data, please contact hwu648@gatech.edu. 
+The hybrid-PSF and FLFM image data of HeLa cells are uploaded to
+https://doi.org/10.6084/m9.figshare.31400772
+You can try to use the PWB deconvolution to reconstruct the HeLa cells. 
