@@ -6,7 +6,7 @@ function [OTF_FP_data,OTF_BP_data] = GetOTF_WB( PSF_FP_data )
 alpha = 1;
 beta = 1; 
 n = 10;
-resFlag = 1; 
+resFlag = 2; 
 iRes = [2,2,0];
 
 [Sx, Sy, Sz] = size(PSF_FP_data);
@@ -361,4 +361,5 @@ px = 1/Sx; py = 1/Sy;
     FWHMy = FWHMy*pixelSize;
     FWHMz = FWHMz*pixelSize;
     end
+
 end
